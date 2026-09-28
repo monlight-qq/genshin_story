@@ -1,0 +1,20 @@
+# Python caches and local environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# Runtime logs and machine-specific calibration
+auto_story.log*
+story_markers.json
+story_option.json
+story_close.json
+
+# Local credentials and editor/OS files
+.env
+.env.*
+.vscode/
+.idea/
+Thumbs.db
+Desktop.ini
